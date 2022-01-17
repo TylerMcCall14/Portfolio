@@ -1,0 +1,36 @@
+.Header{
+    position: fixed;
+    display: flex;
+    height: 72px;
+    width: 100vw;
+    align-items: center;
+    background-color: white;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.link{
+display: flex;
+flex-wrap: wrap;
+width: 400px;
+justify-content: space-evenly;
+}
+
+.link a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+
+.link a:hover{
+    color: grey;
+}
+
+.logo{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.logo img{
+width: 120px;
+}
