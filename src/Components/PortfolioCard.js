@@ -12,8 +12,8 @@ function PortfolioCard( {title, desc, givenImage, githubStatus} ){
                 <div className={styles.title}>{title}</div>
                 <div className={styles.desc}>{desc}</div>
                 <div className={styles.buttons}>
-                    <div className={styles.navButton}>Live Project</div>
-                    <div className={styles.navButton}>GitHub</div>
+                    <div className={styles.navButton}><a href="http://www.google.com">Live Project</a></div>
+                    <div className={styles.navButton} ><a href="http://www.google.com">GitHub</a></div>
                 </div>
             </div>
         </div>
