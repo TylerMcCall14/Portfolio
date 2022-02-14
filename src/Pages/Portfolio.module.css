@@ -1,0 +1,119 @@
+.body {
+margin-top: 72px;
+}
+
+.desc {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.descText {
+    width: 685px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+.selectBtnContainer {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.selectBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    background-color: black;
+    width: 120px;
+    height: 48px;
+    color: white;
+    border-radius: 15px 0 0 15px;
+}
+
+.selectBtn3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    background-color: black;
+    width: 120px;
+    height: 48px;
+    color: white;
+}
+
+.outBtn {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 128px;
+    height: 64px;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    border-radius: 15px 0 0 15px;
+}
+
+.outBtn2 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 56px;
+    width: 128px;
+    height: 64px;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-radius: 0 15px 15px 0;
+}
+
+.outBtn3 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 120px;
+    height: 56px;
+    height: 64px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.selectBtn2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    background-color: black;
+    width: 120px;
+    height: 48px;
+    color: white;
+    border-radius: 0 15px 15px 0;
+}
+
+.selectBtn:hover {
+    cursor: pointer;
+    background-color: gray;
+    transition: ease-in-out;
+}
+
+.selectBtn2:hover {
+    cursor: pointer;
+    background-color: gray;
+    transition: ease-in-out;
+}
+
+.selectBtn3:hover {
+    cursor: pointer;
+    background-color: gray;
+    transition: ease-in-out;
+}
+
+.content{
+    margin-top: 64px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

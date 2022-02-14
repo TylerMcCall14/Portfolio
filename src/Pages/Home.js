@@ -11,7 +11,7 @@ function Home() {
         <div>
             <Header />
             <div className={styles.body}>
-                <h1>Hi, I'm Tyler McCall</h1>
+                <h1 style={{marginTop: 72}}>Hi, I'm Tyler McCall</h1>
                 <div className={styles.subText}>
                 <a>I'm a current senior computer engineering student at the University of North Texas with a background in full-stack web development. I mainly focus on ReactJS for the web and React Native for mobile applications. Check out my portfolio to see what I'm currently working on!</a>
                 </div>
@@ -34,7 +34,7 @@ function Home() {
             </div>
             <div className={styles.intro}>
                 <div className={styles.quip}>
-                <h3>I strive to bring responsive and functional work as quickly as possbile</h3>
+                <h3>I strive to bring responsive and functional work as quickly as possible</h3>
                 </div>
                 <div className={styles.pic}>
                 </div>
