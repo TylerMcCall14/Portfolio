@@ -57,6 +57,7 @@ height: 265px;
 
 .navButton a:link{
 text-decoration: none;
+color: black;
 }
 
 .navButton a:visited{

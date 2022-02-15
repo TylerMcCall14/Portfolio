@@ -18,6 +18,7 @@ function Header() {
             <Link to="/portfolio"><a>Portfolio</a></Link>
             <Link to="/blog"><a>Blog</a></Link>
             <Link to='/contact'><a>Contact Me</a></Link>
+            <Link to="/resume"><a>Resume</a></Link>
         </div>
         <div className={styles.box}></div>
         </div>
