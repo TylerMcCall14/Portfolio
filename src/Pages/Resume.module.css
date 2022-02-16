@@ -1,0 +1,34 @@
+.resumeImg {
+    margin-top: 24px;
+    width: 720px;
+}
+
+.downloadBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 72px;
+    width: 128px;
+    height: 48px;
+    background-color: black;
+    color: white;
+    border-radius: 16px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.downloadBtn a:link{
+    text-decoration: none;
+}
+
+.downloadBtn:hover {
+    cursor: pointer;
+    background-color: gray;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

@@ -39,6 +39,13 @@ function Home() {
                 <div className={styles.pic}>
                 </div>
             </div>
+            {/*
+            <div className={styles.techInfo}>
+                <div className={styles.technologyBox}>
+                    <div className={styles.titleBox}></div>
+                </div>
+            </div>
+            */}
         </div>
     )
 }

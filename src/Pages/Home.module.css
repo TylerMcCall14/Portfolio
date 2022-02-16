@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     background-color: black;
-    width: 100vw;
+    width: 100%;
     height: 70vh;
     min-height: 520px;
     min-width: 300px;
@@ -98,11 +98,24 @@
 .pic{
     width: 400px;
     height: 400px;
-    min-width: 400px;
-    min-height: 400px;
+    min-width: 280px;
+    min-height: 280px;
     border-radius: 50%;
     contain: content;
     background-image: url("../assets/SelfPortrait.PNG");
     background-position: center;
     background-size: 100%;
+}
+
+.technologyBox {
+    width: 520px;
+    height: 265px;
+    background-color: black;
+}
+
+.techInfo {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+    height: 320px;
 }
