@@ -8,6 +8,16 @@ import netflix from '../assets/Netflix.PNG'
 import amazon from '../assets/Amazon.PNG'
 import tiktok from '../assets/Capture.PNG'
 import portfolioimg from '../assets/Portfolio.PNG'
+import todo from '../assets/to-do.PNG'
+import artnonymous from '../assets/artnonymous.PNG'
+import blackjack from '../assets/BlackJack.PNG'
+import starbies from '../assets/Starbies.PNG'
+import textEdit from '../assets/TextEdit.PNG'
+import twitter from '../assets/Twitter.PNG'
+import weather from '../assets/Weather.PNG'
+import jumpStart from '../assets/jump-start.PNG'
+
+
 
 import styles from './Portfolio.module.css'
 
@@ -65,11 +75,20 @@ function Portfolio() {
                 </div>
                 : menuChoice === 2 ?
                 <div className={styles.content}>
-                    <PortfolioCard title="Test" desc="This is a test description of a project I am doing" givenImage={img}/>
+                    <PortfolioCard title="Today's Jump-Start" desc="This project is featured on the Google Chrome extension store, which allows the user to have a beautiful to-do list with features that include linking to current sites to return to later" 
+                    givenImage={jumpStart} ReactProj={true} githubStatus={true} LiveLink={"https://chrome.google.com/webstore/detail/todays-jump-start/afkepjkhkjijehnmihjafeffkpjdiogg"} gitHubLink={"https://github.com/TylerMcCall14/VanillaJSProjects/tree/main/todays-jump-start"}/>
+                    <PortfolioCard title="Blackjack and Games" desc="This project hosts the game of blackjack alongside other fun and short games" givenImage={blackjack} gitHubLink={"https://github.com/TylerMcCall14/VanillaJSProjects/tree/main/BlackjackAndGames"}/>
+                    <PortfolioCard title="Starbucks Locator" desc="This project utlizes the google maps API and geolocation to find starbucks within a given zip code. (Currently only LA zip codes are supported)" givenImage={starbies} gitHubLink={"https://github.com/TylerMcCall14/VanillaJSProjects/tree/main/Starbies%20Locator"}/>
+                    <PortfolioCard title="Text Editor" desc="This project has a basic text editor that allows the user to edit their text given different options" givenImage={textEdit} gitHubLink={"https://github.com/TylerMcCall14/VanillaJSProjects/tree/main/TextEditorExercise-1"}/>
+                    <PortfolioCard title="Tweet Clone" desc="This project uses the Twitter API to return recent tweets given a specific keyword" givenImage={twitter} gitHubLink={"https://github.com/TylerMcCall14/VanillaJSProjects/tree/main/Tyler's%20Twitter%20Clone"}/>
+                    <PortfolioCard title="Weather App" desc="This project will return the weather and temperature for a given city through an API" givenImage={weather} gitHubLink={"https://github.com/TylerMcCall14/VanillaJSProjects/tree/main/Weather-App-Exercise"}/>
                 </div>
                 :
                 <div className={styles.content}>
-                    <PortfolioCard title="Test" desc="This is a test description of a project I am doing" givenImage={img}/>
+                    <PortfolioCard title="To-Do List" desc="This project is a simple to-do list used to get me familar with the differences between React and React Native" 
+                    givenImage={todo} ReactProj={true} githubStatus={true} LiveLink={"https://expo.dev/@tylermccall14/to-do-list"} gitHubLink={"https://github.com/TylerMcCall14/GestureO/tree/main/react-native-deliverable"}/>
+                    <PortfolioCard title="Artnonymous App" desc="This is a startup idea I am currently working on to create a social media platform that has complete anonymity for artists to showcase their work without the prejudice of others" 
+                    givenImage={artnonymous} ReactProj={true} githubStatus={false} LiveLink={"https://expo.dev/@tylermccall14/Artnonymous"} />
                 </div>
                 }
             </div>
