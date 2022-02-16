@@ -1,6 +1,9 @@
 .resumeImg {
     margin-top: 24px;
+    min-width: 380px;
     width: 720px;
+    max-width: 720px;
+    object-fit: contain;
 }
 
 .downloadBtn {
