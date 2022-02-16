@@ -71,7 +71,7 @@ function Portfolio() {
                     <PortfolioCard title="TikTok Clone" desc="This project creates a web-based clone of TikTok, showcasing the snap effect TikTok has on the mobile application" 
                     givenImage={tiktok} ReactProj={true} githubStatus={true} LiveLink={"https://tender-shannon-3012cb.netlify.app"} gitHubLink={"https://github.com/TylerMcCall14/ReactProjects/tree/main/tiktok-clone"}/>
                     <PortfolioCard title="My Personal Website" desc="This website was created completely from scratch, showcasing my previous projects and a way to get connected with me" 
-                    givenImage={portfolioimg} ReactProj={true} githubStatus={true} LiveLink={"https://www.mccalltyler.com"} gitHubLink={"https://github.com/TylerMcCall14/Portfolio"}/>
+                    givenImage={portfolioimg} githubStatus={true} gitHubLink={"https://github.com/TylerMcCall14/Portfolio"}/>
                 </div>
                 : menuChoice === 2 ?
                 <div className={styles.content}>
